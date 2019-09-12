@@ -179,8 +179,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/calib.cfg
 
 # Doze mode
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
+
+# Custom Doze
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    LeecoDoze
 
 # DRM
 PRODUCT_PACKAGES += \
